@@ -1,0 +1,24 @@
+[submodule "distribution/arch/aur-nexoid-fat-cpp"]
+	path = distribution/arch/aur-nexoid-fat-cpp
+	url = https://github.com/hurufu/aur-nexoid-fat-cpp.git
+[submodule "distribution/arch/aur-nexoid-nexui-flask-systemd"]
+	path = distribution/arch/aur-nexoid-nexui-flask-systemd
+	url = https://github.com/hurufu/aur-nexoid-nexui-flask-systemd.git
+[submodule "distribution/arch/aur-nexoid-nexui-flask"]
+	path = distribution/arch/aur-nexoid-nexui-flask
+	url = https://github.com/hurufu/aur-nexoid-nexui-flask.git
+[submodule "distribution/arch/aur-drakon-editor"]
+	path = distribution/arch/aur-drakon-editor
+	url = https://github.com/hurufu/aur-drakon-editor.git
+[submodule "experiments/nexoid-tc-phenesthe"]
+	path = experiments/nexoid-tc-phenesthe
+	url = https://github.com/hurufu/nexoid-tc-phenesthe.git
+[submodule "webdemo/nexoid-nexui-flask"]
+	path = nexoid-nexui-flask
+	url = https://github.com/hurufu/nexoid-nexui-flask.git
+[submodule "dependencies/drakon-editor"]
+	path = dependencies/drakon-editor
+	url = https://github.com/hurufu/drakon-editor.git
+[submodule "nexoid-fat-cpp"]
+	path = nexoid-fat-cpp
+	url = https://github.com/hurufu/nexoid-fat-cpp.git

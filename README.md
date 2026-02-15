@@ -1,6 +1,6 @@
 # Nexoid Financial Application Core Toolkit
 
-_Central repository for nexoid project._
+**This project is WIP, many components implement only minimum to be useful**
 
 Visit [live demo](https://nexoweb.online/nexo)!
 

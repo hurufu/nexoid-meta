@@ -61,3 +61,6 @@
 [submodule "nexoid-protocol-collection"]
 	path = nexoid-protocol-collection
 	url = https://github.com/hurufu/nexoid-protocol-collection.git
+[submodule "experiments/frobd"]
+	path = experiments/frobd
+	url = https://github.com/hurufu/frobd

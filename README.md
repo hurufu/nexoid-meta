@@ -63,13 +63,20 @@ postconditions and invariants of procedures.
 
 #### nexoid-tc-pheneste/
 
+An attempt to codify couple of official test-cases using Temporal Logic formalism.
+
+#### frobd/
+
+Very rough scetch of a proxy for Polish EFT protocol [FROB](https://frob.pl/protokol-ecr-eft/#ECREFT),
+can be embedded into any application and converts national protocol into SCAP or
+NEXO retailer.
+
 ### Tools/
 
 #### nexoid-card-simulator/
 
-
-
-An attempt to codify couple of official test-cases using Temporal Logic formalism.
+Contactless card simulator for NXP NFC USB dongle by [mikroe](https://www.mikroe.com/nfc-2-click).
+Currently supports only 2 cards, but is expandable via an easy domain specific language.
 
 ### Dependencies
 

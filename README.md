@@ -13,7 +13,11 @@ part of nexoid project.
 
 Implementation of NEXO FAST business logic as a standalone library.
 
+Source is readable as a visual document:
 ![Check_Online_Performed](resources/nexoid-ed-01.png "This diagram can be compiled to C code")
+
+Which defines standard interfaces to low-level and proprietary mechanisms:
+![Select_Ppse](resources/nexoid-ed-02.png "Formal API definitions")
 
 #### nexoid-protocol-collection
 

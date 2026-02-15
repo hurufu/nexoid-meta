@@ -4,7 +4,7 @@
 
 Visit [live demo](https://nexoweb.online/nexo)!
 
-This repository provides links an centralizes access to all tools developed as
+This repository provides links and centralizes access to all tools developed as
 part of nexoid project.
 
 ## Project structure

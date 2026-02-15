@@ -28,6 +28,9 @@ It allows automated code generation for many target languages while supporting
 a large selection of transport encodings ranging from packed binary and to XML
 and JSON.
 
+Declarative definitions specify _meaning_ which can be encoded for example as XML:
+![ASN.1 XML](resources/nexoid-asn-xml.png "ASN.1 describes any encoding such as XML")
+
 ### nexoid-fat-cpp/
 
 Main application, written in C++ – a safe, network-oriented wrapper around

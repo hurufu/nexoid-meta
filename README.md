@@ -13,6 +13,8 @@ part of nexoid project.
 
 Implementation of NEXO FAST business logic as a standalone library.
 
+![Check_Online_Performed](resources/nexoid-ed-01.png "This diagram can be compiled to C code")
+
 #### nexoid-protocol-collection
 
 Formalized definitions (in [ASN.1](https://en.wikipedia.org/wiki/ASN.1)) of

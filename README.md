@@ -9,7 +9,7 @@ part of nexoid project.
 
 ## Project structure
 
-#### nexoid-ed
+#### nexoid-ed/
 
 Implementation of NEXO FAST business logic as a standalone library.
 
@@ -19,7 +19,7 @@ Source is readable as a visual document:
 Which defines standard interfaces to low-level and proprietary mechanisms:
 ![Select_Ppse](resources/nexoid-ed-02.png "Formal API definitions")
 
-#### nexoid-protocol-collection
+#### nexoid-protocol-collection/
 
 Formalized definitions (in [ASN.1](https://en.wikipedia.org/wiki/ASN.1)) of
 communication protocol between FAST, SCAP, HAP, TMAP and other components.
@@ -31,14 +31,14 @@ and JSON.
 Declarative definitions specify _meaning_ which can be encoded for example as XML:
 ![ASN.1 XML](resources/nexoid-asn-xml.png "ASN.1 describes any encoding such as XML")
 
-### nexoid-fat-cpp/
+#### nexoid-fat-cpp/
 
 Main application, written in C++ – a safe, network-oriented wrapper around
 `nexoid-ed`. Communicates using ASN.1 messages via [NNG](https://nng.nanomsg.org/)
 protocol, but it is easily expandable to any transport mechanism (there is
 `libsocket`-based transport as an example of expandability).
 
-### nexoid-nexui-flask/
+#### nexoid-nexui-flask/
 
 Webapp (currently [live](https://nexoweb.online/nexo)), used to demonstrate
 versatility of deployments. It implements a demo SCAP in a browser which you

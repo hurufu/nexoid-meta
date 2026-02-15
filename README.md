@@ -13,35 +13,50 @@ part of nexoid project.
 
 Implementation of NEXO FAST business logic as a standalone library.
 
-### nexoid-fat-cpp
+#### nexoid-protocol-collection
+
+Formalized definitions (in [ASN.1](https://en.wikipedia.org/wiki/ASN.1)) of
+communication protocol between FAST, SCAP, HAP, TMAP and other components.
+
+It allows automated code generation for many target languages while supporting
+a large selection of transport encodings ranging from packed binary and to XML
+and JSON.
+
+### nexoid-fat-cpp/
 
 Main application, written in C++ – a safe, network-oriented wrapper around
-nexoid-ed. Communicates using ASN.1 messages via NNG protocol, but it is easily
-expandable to any transport mechanism (there is libsocket-based transport as
-an example of expandability).
+`nexoid-ed`. Communicates using ASN.1 messages via [NNG](https://nng.nanomsg.org/)
+protocol, but it is easily expandable to any transport mechanism (there is
+`libsocket`-based transport as an example of expandability).
 
-### nexoid-nexui-flask
+### nexoid-nexui-flask/
 
 Webapp (currently [live](https://nexoweb.online/nexo)), used to demonstrate
 versatility of deployments. It implements a demo SCAP in a browser which you
 can use to send dummy transactions to FAST in the back-end.
 
-#### nexoid-scapp-c
+#### nexoid-scapp-c/
 
 Implementation of SCAP suitable for real-world terminals, works on very
 constrained devices with or without display.
 
-### Experiments
+### Experiments/
 
 Folder that contains experimental and very rough code
 
-#### nexoid-ed-ada
+#### nexoid-ed-ada/
 
 Reimplementation in verifiable safe Ada programming language – this is my future
 direction. This language allows very advanced features, like proving accessibility
 of global variables.
 
-#### nexoid-tc-pheneste
+#### nexoid-tc-pheneste/
+
+### Tools/
+
+#### nexoid-card-simulator/
+
+
 
 An attempt to codify couple of official test-cases using Temporal Logic formalism.
 

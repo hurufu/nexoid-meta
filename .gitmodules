@@ -55,3 +55,9 @@
 [submodule "nexoid-scapp-c"]
 	path = nexoid-scapp-c
 	url = https://github.com/hurufu/nexoid-scapp-c.git
+[submodule "nexoid-ed"]
+	path = nexoid-ed
+	url = https://github.com/hurufu/nexoid-ed.git
+[submodule "nexoid-protocol-collection"]
+	path = nexoid-protocol-collection
+	url = https://github.com/hurufu/nexoid-protocol-collection.git

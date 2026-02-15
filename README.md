@@ -78,6 +78,15 @@ NEXO retailer.
 Contactless card simulator for NXP NFC USB dongle by [mikroe](https://www.mikroe.com/nfc-2-click).
 Currently supports only 2 cards, but is expandable via an easy domain specific language.
 
+#### nexoid-visual-caaa/
+
+Quite old tool to visualize CAAA ISO 20022 messages in a browser:
+![XML → HTML](resources/nexoid-caaa-visualization.png)
+
+Doesn't work with modern browsers because client-side XSLT is deprecated and
+removed from all of them. You have to use for example `xsltproc` program to
+perform transformation instead.
+
 ### Dependencies
 
 Links to 3rd party tools used for development.

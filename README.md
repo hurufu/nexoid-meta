@@ -11,7 +11,8 @@ part of nexoid project.
 
 #### nexoid-ed/
 
-Implementation of NEXO FAST business logic as a standalone library.
+Implementation of [NEXO FAST](https://www.nexo-standards.org/) business logic
+as a standalone C library.
 
 Source is readable as a visual document:
 ![Check_Online_Performed](resources/nexoid-ed-01.png "This diagram can be compiled to C code")
@@ -40,14 +41,14 @@ protocol, but it is easily expandable to any transport mechanism (there is
 
 #### nexoid-nexui-flask/
 
-Webapp (currently [live](https://nexoweb.online/nexo)), used to demonstrate
+Demo webapp (currently [live](https://nexoweb.online/nexo)), used to demonstrate
 versatility of deployments. It implements a demo SCAP in a browser which you
 can use to send dummy transactions to FAST in the back-end.
 
 #### nexoid-scapp-c/
 
-Implementation of SCAP suitable for real-world terminals, works on very
-constrained devices with or without display.
+[WIP] Implementation of SCAP suitable for real-world terminals, works on very
+constrained devices with or without display. Tested on real hardware.
 
 ### Experiments/
 
@@ -55,9 +56,10 @@ Folder that contains experimental and very rough code
 
 #### nexoid-ed-ada/
 
-Reimplementation in verifiable safe Ada programming language – this is my future
-direction. This language allows very advanced features, like proving accessibility
-of global variables.
+Reimplementation in verifiably safe [Ada](https://www.adacore.com/languages/ada)
+programming language – this is my future direction. This language allows very
+advanced features, like proving accessibility of global variables, preconditions,
+postconditions and invariants of procedures.
 
 #### nexoid-tc-pheneste/
 

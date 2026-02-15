@@ -22,3 +22,36 @@
 [submodule "nexoid-fat-cpp"]
 	path = nexoid-fat-cpp
 	url = https://github.com/hurufu/nexoid-fat-cpp.git
+[submodule "tools/nexoid-visual-caaa"]
+	path = tools/nexoid-visual-caaa
+	url = https://github.com/hurufu/nexoid-visual-caaa.git
+[submodule "dependencies/esnacc-ng"]
+	path = dependencies/esnacc-ng
+	url = https://github.com/esnacc/esnacc-ng.git
+[submodule "dependencies/asn1tools"]
+	path = dependencies/asn1tools
+	url = git@github.com:hurufu/asn1tools.git
+[submodule "distribution/arch/python-asn1tools"]
+	path = distribution/arch/python-asn1tools
+	url = https://aur.archlinux.org/python-asn1tools.git
+[submodule "distribution/arch/python-pynng-git"]
+	path = distribution/arch/python-pynng-git
+	url = https://aur.archlinux.org/python-pynng-git.git
+[submodule "distribution/arch/python-timebudget-git"]
+	path = distribution/arch/python-timebudget-git
+	url = https://aur.archlinux.org/python-timebudget-git.git
+[submodule "distribution/arch/libsocket-git"]
+	path = distribution/arch/libsocket-git
+	url = https://aur.archlinux.org/libsocket-git.git
+[submodule "distribution/arch/libptmalloc3"]
+	path = distribution/arch/libptmalloc3
+	url = https://aur.archlinux.org/libptmalloc3.git
+[submodule "experiments/nexoid-ed-ada"]
+	path = experiments/nexoid-ed-ada
+	url = https://github.com/hurufu/nexoid-ed-ada.git
+[submodule "tools/nexoid-card-simulator"]
+	path = tools/nexoid-card-simulator
+	url = https://github.com/hurufu/nexoid-card-simulator.git
+[submodule "nexoid-scapp-c"]
+	path = nexoid-scapp-c
+	url = https://github.com/hurufu/nexoid-scapp-c.git

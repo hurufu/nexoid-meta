@@ -26,8 +26,7 @@ Formalized definitions (in [ASN.1](https://en.wikipedia.org/wiki/ASN.1)) of
 communication protocol between FAST, SCAP, HAP, TMAP and other components.
 
 It allows automated code generation for many target languages while supporting
-a large selection of transport encodings ranging from packed binary and to XML
-and JSON.
+a large selection of transport encodings ranging from packed binary to XML and JSON.
 
 Declarative definitions specify _meaning_ which can be encoded for example as XML:
 ![ASN.1 XML](resources/nexoid-asn-xml.png "ASN.1 describes any encoding such as XML")
@@ -47,7 +46,7 @@ can use to send dummy transactions to FAST in the back-end.
 
 #### nexoid-scapp-c/
 
-[WIP] Implementation of SCAP suitable for real-world terminals, works on very
+*WIP* Implementation of SCAP suitable for real-world terminals, works on very
 constrained devices with or without display. Tested on real hardware.
 
 ### Experiments/
@@ -75,8 +74,8 @@ NEXO retailer.
 
 #### nexoid-card-simulator/
 
-Contactless card simulator for NXP NFC USB dongle by [mikroe](https://www.mikroe.com/nfc-2-click).
-Currently supports only 2 cards, but is expandable via an easy domain specific language.
+*WIP* Contactless card simulator for NXP NFC USB dongle by [mikroe](https://www.mikroe.com/nfc-2-click).
+Currently supports only 2 cards, but is expandable via a domain specific language.
 
 #### nexoid-visual-caaa/
 

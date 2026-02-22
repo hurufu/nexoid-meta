@@ -9,7 +9,7 @@ part of nexoid project.
 
 ## Project structure
 
-#### nexoid-ed/
+#### [nexoid-ed/](https://github.com/hurufu/nexoid-meta)
 
 Implementation of [NEXO FAST](https://www.nexo-standards.org/) business logic
 as a standalone C library.
@@ -20,7 +20,7 @@ Source is readable as a visual document:
 Which defines standard interfaces to low-level and proprietary mechanisms:
 ![Select_Ppse](resources/nexoid-ed-02.png "Formal API definitions")
 
-#### nexoid-protocol-collection/
+#### [nexoid-protocol-collection/](https://github.com/hurufu/nexoid-protocol-collection)
 
 Formalized definitions (in [ASN.1](https://en.wikipedia.org/wiki/ASN.1)) of
 communication protocol between FAST, SCAP, HAP, TMAP and other components.
@@ -31,20 +31,20 @@ a large selection of transport encodings ranging from packed binary to XML and J
 Declarative definitions specify _meaning_ which can be encoded for example as XML:
 ![ASN.1 XML](resources/nexoid-asn-xml.png "ASN.1 describes any encoding such as XML")
 
-#### nexoid-fat-cpp/
+#### [nexoid-fat-cpp/](https://github.com/hurufu/nexoid-fat-cpp)
 
 Main application, written in C++ – a safe, network-oriented wrapper around
 `nexoid-ed`. Communicates using ASN.1 messages via [NNG](https://nng.nanomsg.org/)
 protocol, but it is easily expandable to any transport mechanism (there is
 `libsocket`-based transport as an example of expandability).
 
-#### nexoid-nexui-flask/
+#### [nexoid-nexui-flask/](https://github.com/hurufu/nexoid-nexui-flask)
 
 Demo webapp (currently [live](https://nexoweb.online/nexo)), used to demonstrate
 versatility of deployments. It implements a demo SCAP in a browser which you
 can use to send dummy transactions to FAST in the back-end.
 
-#### nexoid-scapp-c/
+#### [nexoid-scapp-c/](https://github.com/hurufu/nexoid-scapp-c)
 
 *WIP* Implementation of SCAP suitable for real-world terminals, works on very
 constrained devices with or without display. Tested on real hardware.
@@ -53,18 +53,18 @@ constrained devices with or without display. Tested on real hardware.
 
 Folder that contains experimental and very rough code
 
-#### nexoid-ed-ada/
+#### [nexoid-ed-ada/](https://github.com/hurufu/nexoid-ed-ada)
 
 Reimplementation in verifiably safe [Ada](https://www.adacore.com/languages/ada)
 programming language – this is my future direction. This language allows very
 advanced features, like proving accessibility of global variables, preconditions,
 postconditions and invariants of procedures.
 
-#### nexoid-tc-pheneste/
+#### [nexoid-tc-pheneste/](https://github.com/hurufu/nexoid-tc-pheneste)
 
 An attempt to codify couple of official test-cases using Temporal Logic formalism.
 
-#### frobd/
+#### [frobd/](https://github.com/hurufu/frobd)
 
 Very rough scetch of a proxy for Polish EFT protocol [FROB](https://frob.pl/protokol-ecr-eft/#ECREFT),
 can be embedded into any application and converts national protocol into SCAP or
@@ -72,12 +72,12 @@ NEXO retailer.
 
 ### Tools/
 
-#### nexoid-card-simulator/
+#### [nexoid-card-simulator/](https://github.com/hurufu/nexoid-card-simulator)
 
 *WIP* Contactless card simulator for NXP NFC USB dongle by [mikroe](https://www.mikroe.com/nfc-2-click).
 Currently supports only 2 cards, but is expandable via a domain specific language.
 
-#### nexoid-visual-caaa/
+#### [nexoid-visual-caaa/](https://github.com/hurufu/nexoid-visual-caaa)
 
 Quite old tool to visualize CAAA ISO 20022 messages in a browser:
 ![XML → HTML](resources/nexoid-caaa-visualization.png)
@@ -90,14 +90,14 @@ perform transformation instead.
 
 Links to 3rd party tools used for development.
 
-#### drakon-editor
+#### [drakon-editor/](https://github.com/hurufu/drakon-editor)
 
 Drakon diagram editor and compiler. Main GUI application used for development,
 allows compilation of visual block diagram into executable code. It isn't
 actively developed anymore, so there is a plan to either continue using my fork
 or migrate to some other tool.
 
-#### asn1tools
+#### [asn1tools/](https://github.com/hurufu/asn1tools)
 
 Python library for ASN.1, used for online demo webapp.
 

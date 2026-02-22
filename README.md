@@ -20,27 +20,36 @@ Source is readable as a visual document:
 Which defines standard interfaces to low-level and proprietary mechanisms:
 ![Select_Ppse](resources/nexoid-ed-02.png "Formal API definitions")
 
+Overall compiled into self-contained library with well-defined API. Main
+invention of this project is separation of Nexo-FAST logic from the rest of
+PoS application.
+
 #### [nexoid-protocol-collection/](https://github.com/hurufu/nexoid-protocol-collection)
 
 Formalized definitions (in [ASN.1](https://en.wikipedia.org/wiki/ASN.1)) of
 communication protocol between FAST, SCAP, HAP, TMAP and other components.
-
 It allows automated code generation for many target languages while supporting
 a large selection of transport encodings ranging from packed binary to XML and JSON.
 
 Declarative definitions specify _meaning_ which can be encoded for example as XML:
 ![ASN.1 XML](resources/nexoid-asn-xml.png "ASN.1 describes any encoding such as XML")
 
+It is not ISO 20022, it is internal protocol to communicate between components
+of a single application. It greatly decreases coupling and as a consequence
+makes those components reusable in different contexts.
+
 #### [nexoid-fat-cpp/](https://github.com/hurufu/nexoid-fat-cpp)
 
-Main application, written in C++ – a safe, network-oriented wrapper around
-`nexoid-ed`. Communicates using ASN.1 messages via [NNG](https://nng.nanomsg.org/)
-protocol, but it is easily expandable to any transport mechanism (there is
-`libsocket`-based transport as an example of expandability).
+Actual payment application, written in C++ – a safe, network-oriented wrapper
+around `nexoid-ed`. It implements so-called trusted layer – a module that
+enforces consistency of _current transaction database_. Communicates using
+ASN.1 messages via [NNG](https://nng.nanomsg.org/) protocol, but it is easily
+expandable to any transport mechanism (there is `libsocket`-based transport as
+an example of expandability).
 
 #### [nexoid-nexui-flask/](https://github.com/hurufu/nexoid-nexui-flask)
 
-Demo webapp (currently [live](https://nexoweb.online/nexo)), used to demonstrate
+Demo web app (currently [live](https://nexoweb.online/nexo)), used to demonstrate
 versatility of deployments. It implements a demo SCAP in a browser which you
 can use to send dummy transactions to FAST in the back-end.
 
@@ -66,7 +75,7 @@ An attempt to codify couple of official test-cases using Temporal Logic formalis
 
 #### [frobd/](https://github.com/hurufu/frobd)
 
-Very rough scetch of a proxy for Polish EFT protocol [FROB](https://frob.pl/protokol-ecr-eft/#ECREFT),
+Very rough sketch of a proxy for Polish EFT protocol [FROB](https://frob.pl/protokol-ecr-eft/#ECREFT),
 can be embedded into any application and converts national protocol into SCAP or
 NEXO retailer.
 
@@ -99,7 +108,7 @@ or migrate to some other tool.
 
 #### [asn1tools/](https://github.com/hurufu/asn1tools)
 
-Python library for ASN.1, used for online demo webapp.
+Python library for ASN.1, used for online demo web app.
 
 ### Distribution
 
